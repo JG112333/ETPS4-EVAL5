@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C48D98F2C0273B8005FDD90 /* VerInventario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C48D98E2C0273B8005FDD90 /* VerInventario.swift */; };
+		0C48D9922C0279FE005FDD90 /* VerVentas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C48D9912C0279FE005FDD90 /* VerVentas.swift */; };
+		A95BAF932BFDB08600389B96 /* PHARMAINVENTappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAF922BFDB08600389B96 /* PHARMAINVENTappApp.swift */; };
+		A95BAF952BFDB08600389B96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAF942BFDB08600389B96 /* ContentView.swift */; };
+		A95BAF972BFDB08C00389B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95BAF962BFDB08C00389B96 /* Assets.xcassets */; };
+		A95BAF9A2BFDB08C00389B96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95BAF992BFDB08C00389B96 /* Preview Assets.xcassets */; };
+		A95BAFA22BFDB14600389B96 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAFA12BFDB14600389B96 /* Constantes.swift */; };
+		A95BAFA42BFDB16A00389B96 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAFA32BFDB16A00389B96 /* LoginView.swift */; };
+		A95BAFA72BFDB20B00389B96 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAFA62BFDB20B00389B96 /* MainMenu.swift */; };
+		A95BAFAA2BFDC87200389B96 /* AgregarProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAFA92BFDC87200389B96 /* AgregarProducto.swift */; };
+		A95BAFAC2BFDC89500389B96 /* ActualizarExistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAFAB2BFDC89500389B96 /* ActualizarExistencia.swift */; };
+		A95BAFAE2BFDCAC000389B96 /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAFAD2BFDCAC000389B96 /* Registro.swift */; };
+		A95BAFB02BFDD42F00389B96 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAFAF2BFDD42F00389B96 /* Header.swift */; };
+		A95BAFB22BFDDCF600389B96 /* BotonAtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BAFB12BFDDCF600389B96 /* BotonAtras.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C48D98E2C0273B8005FDD90 /* VerInventario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerInventario.swift; sourceTree = "<group>"; };
+		0C48D9912C0279FE005FDD90 /* VerVentas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerVentas.swift; sourceTree = "<group>"; };
+		A95BAF8F2BFDB08600389B96 /* PHARMAINVENTapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHARMAINVENTapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95BAF922BFDB08600389B96 /* PHARMAINVENTappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHARMAINVENTappApp.swift; sourceTree = "<group>"; };
+		A95BAF942BFDB08600389B96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A95BAF962BFDB08C00389B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A95BAF992BFDB08C00389B96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A95BAF9B2BFDB08C00389B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95BAFA12BFDB14600389B96 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		A95BAFA32BFDB16A00389B96 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A95BAFA62BFDB20B00389B96 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		A95BAFA92BFDC87200389B96 /* AgregarProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarProducto.swift; sourceTree = "<group>"; };
+		A95BAFAB2BFDC89500389B96 /* ActualizarExistencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualizarExistencia.swift; sourceTree = "<group>"; };
+		A95BAFAD2BFDCAC000389B96 /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
+		A95BAFAF2BFDD42F00389B96 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		A95BAFB12BFDDCF600389B96 /* BotonAtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotonAtras.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A95BAF8C2BFDB08600389B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A95BAF862BFDB08600389B96 = {
+			isa = PBXGroup;
+			children = (
+				A95BAF912BFDB08600389B96 /* PHARMAINVENTapp */,
+				A95BAF902BFDB08600389B96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95BAF902BFDB08600389B96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95BAF8F2BFDB08600389B96 /* PHARMAINVENTapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95BAF912BFDB08600389B96 /* PHARMAINVENTapp */ = {
+			isa = PBXGroup;
+			children = (
+				A95BAFA82BFDB2A300389B96 /* Util */,
+				A95BAFA52BFDB1C800389B96 /* ItemsAdmin */,
+				A95BAF922BFDB08600389B96 /* PHARMAINVENTappApp.swift */,
+				A95BAF942BFDB08600389B96 /* ContentView.swift */,
+				A95BAF962BFDB08C00389B96 /* Assets.xcassets */,
+				A95BAF9B2BFDB08C00389B96 /* Info.plist */,
+				A95BAF982BFDB08C00389B96 /* Preview Content */,
+				A95BAFA32BFDB16A00389B96 /* LoginView.swift */,
+				A95BAFAD2BFDCAC000389B96 /* Registro.swift */,
+			);
+			path = PHARMAINVENTapp;
+			sourceTree = "<group>";
+		};
+		A95BAF982BFDB08C00389B96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A95BAF992BFDB08C00389B96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A95BAFA52BFDB1C800389B96 /* ItemsAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				A95BAFA62BFDB20B00389B96 /* MainMenu.swift */,
+				A95BAFA92BFDC87200389B96 /* AgregarProducto.swift */,
+				A95BAFAB2BFDC89500389B96 /* ActualizarExistencia.swift */,
+				0C48D98E2C0273B8005FDD90 /* VerInventario.swift */,
+				0C48D9912C0279FE005FDD90 /* VerVentas.swift */,
+			);
+			path = ItemsAdmin;
+			sourceTree = "<group>";
+		};
+		A95BAFA82BFDB2A300389B96 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A95BAFA12BFDB14600389B96 /* Constantes.swift */,
+				A95BAFAF2BFDD42F00389B96 /* Header.swift */,
+				A95BAFB12BFDDCF600389B96 /* BotonAtras.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95BAF8E2BFDB08600389B96 /* PHARMAINVENTapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95BAF9E2BFDB08C00389B96 /* Build configuration list for PBXNativeTarget "PHARMAINVENTapp" */;
+			buildPhases = (
+				A95BAF8B2BFDB08600389B96 /* Sources */,
+				A95BAF8C2BFDB08600389B96 /* Frameworks */,
+				A95BAF8D2BFDB08600389B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHARMAINVENTapp;
+			productName = PHARMAINVENTapp;
+			productReference = A95BAF8F2BFDB08600389B96 /* PHARMAINVENTapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A95BAF872BFDB08600389B96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A95BAF8E2BFDB08600389B96 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = A95BAF8A2BFDB08600389B96 /* Build configuration list for PBXProject "PHARMAINVENTapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A95BAF862BFDB08600389B96;
+			productRefGroup = A95BAF902BFDB08600389B96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95BAF8E2BFDB08600389B96 /* PHARMAINVENTapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A95BAF8D2BFDB08600389B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95BAF9A2BFDB08C00389B96 /* Preview Assets.xcassets in Resources */,
+				A95BAF972BFDB08C00389B96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A95BAF8B2BFDB08600389B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95BAFAE2BFDCAC000389B96 /* Registro.swift in Sources */,
+				A95BAFB02BFDD42F00389B96 /* Header.swift in Sources */,
+				A95BAFB22BFDDCF600389B96 /* BotonAtras.swift in Sources */,
+				A95BAFA72BFDB20B00389B96 /* MainMenu.swift in Sources */,
+				0C48D98F2C0273B8005FDD90 /* VerInventario.swift in Sources */,
+				A95BAF952BFDB08600389B96 /* ContentView.swift in Sources */,
+				A95BAFAC2BFDC89500389B96 /* ActualizarExistencia.swift in Sources */,
+				A95BAF932BFDB08600389B96 /* PHARMAINVENTappApp.swift in Sources */,
+				0C48D9922C0279FE005FDD90 /* VerVentas.swift in Sources */,
+				A95BAFAA2BFDC87200389B96 /* AgregarProducto.swift in Sources */,
+				A95BAFA42BFDB16A00389B96 /* LoginView.swift in Sources */,
+				A95BAFA22BFDB14600389B96 /* Constantes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A95BAF9C2BFDB08C00389B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A95BAF9D2BFDB08C00389B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A95BAF9F2BFDB08C00389B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PHARMAINVENTapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PHARMAINVENTapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utec.PHARMAINVENTapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A95BAFA02BFDB08C00389B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PHARMAINVENTapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PHARMAINVENTapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utec.PHARMAINVENTapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A95BAF8A2BFDB08600389B96 /* Build configuration list for PBXProject "PHARMAINVENTapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95BAF9C2BFDB08C00389B96 /* Debug */,
+				A95BAF9D2BFDB08C00389B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95BAF9E2BFDB08C00389B96 /* Build configuration list for PBXNativeTarget "PHARMAINVENTapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95BAF9F2BFDB08C00389B96 /* Debug */,
+				A95BAFA02BFDB08C00389B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A95BAF872BFDB08600389B96 /* Project object */;
+}
